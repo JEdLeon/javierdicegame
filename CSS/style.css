@@ -1,0 +1,78 @@
+/*-----tag-----*/
+body {
+    font-family: 'Press Start 2P', cursive;
+    text-align: center;
+}
+
+
+/*-----class-----*/
+.padding {
+    padding: 5% 0;
+}
+
+
+/*-----main-----*/
+#main {
+    background-color: #3E432E;
+    color: #A7D129;
+}
+
+.margin-large {
+    margin: 50px 0 100px;
+}
+
+.dice {
+    width: 40%;
+}
+
+.posRel {
+    position: relative;
+    bottom: 8px;
+}
+
+
+/*-----footer-----*/
+#footer {
+    background-color: #000000;
+    color: white;
+}
+
+
+/*-----@media-----*/
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.7rem;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+    }
+    p {
+        font-size: 0.8rem;
+    }
+    .dice {
+        width: 45%;
+    }
+    .margin-large {
+        margin: 30px 0 70px
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.2rem;
+    }
+
+    h3 {
+        font-size: 0.7rem;
+    }
+    p {
+        font-size: 0.6rem;
+    }
+    .dice {
+        width: 50%;
+    }
+    .margin-large {
+        margin: 20px 0 60px
+    }
+}
